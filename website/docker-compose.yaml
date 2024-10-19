@@ -12,5 +12,18 @@ services:
     volumes:
       - mysql-data:/var/lib/mysql
 
+  springboot:
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mysql
+    environment:
+      DB_HOST: mysql
+      DB_PORT: 3306
+      DB_NAME: mywebsite
+      DB_USER: root
+      DB_PASSWORD: root
+
 volumes:
   mysql-data:
