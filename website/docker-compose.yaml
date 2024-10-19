@@ -13,9 +13,10 @@ services:
       - mysql-data:/var/lib/mysql
 
   springboot:
-    build: .
+    build:
+      context: .  # Make sure this points to where your Dockerfile is located
     ports:
-      - "8080:8080"  # Exposing port 8080
+      - "8080:8080"
     depends_on:
       - mysql
     environment:
