@@ -67,15 +67,22 @@
     <property name="LOGGED_APPLICATION_NAME" value="[website] "/>
   </properties>
   <testcase name="contextLoads" classname="website.WebsiteApplicationTests" time="2.072">
+<<<<<<< HEAD
     <system-out><![CDATA[01:27:22.717 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [website.WebsiteApplicationTests]: WebsiteApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
 01:27:23.177 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration website.WebsiteApplication for test class website.WebsiteApplicationTests
 
+=======
+    <system-out><![CDATA[01:27:22.717 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [website.WebsiteApplicationTests]: WebsiteApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+01:27:23.177 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration website.WebsiteApplication for test class website.WebsiteApplicationTests
+
+>>>>>>> 47f4a62622ce9bb7e8b9b8a16142dae9a39a4070
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
 ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
   '  |____| .__|_| |_|_| |_\__, | / / / /
  =========|_|==============|___/=/_/_/_/
+<<<<<<< HEAD
 
  :: Spring Boot ::                (v3.3.4)
 
@@ -101,6 +108,33 @@
 WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
 WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
 WARNING: Dynamic loading of agents will be disallowed by default in a future release
+=======
+
+ :: Spring Boot ::                (v3.3.4)
+
+2024-10-21T01:27:24.419+05:30  INFO 20148 --- [website] [           main] website.WebsiteApplicationTests          : Starting WebsiteApplicationTests using Java 21.0.3 with PID 20148 (started by Bushra-Naweda-Umra in C:\Users\MMC\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\website)
+2024-10-21T01:27:24.422+05:30  INFO 20148 --- [website] [           main] website.WebsiteApplicationTests          : No active profile set, falling back to 1 default profile: "default"
+2024-10-21T01:27:26.516+05:30  INFO 20148 --- [website] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-21T01:27:26.666+05:30  INFO 20148 --- [website] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 127 ms. Found 1 JPA repository interface.
+2024-10-21T01:27:28.180+05:30  INFO 20148 --- [website] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-21T01:27:28.887+05:30  INFO 20148 --- [website] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-21T01:27:29.034+05:30  INFO 20148 --- [website] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-21T01:27:30.591+05:30  INFO 20148 --- [website] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-21T01:27:30.718+05:30  INFO 20148 --- [website] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-21T01:27:32.514+05:30  INFO 20148 --- [website] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@627acb38
+2024-10-21T01:27:32.519+05:30  INFO 20148 --- [website] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-21T01:27:32.658+05:30  WARN 20148 --- [website] [           main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-21T01:27:32.663+05:30  WARN 20148 --- [website] [           main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-10-21T01:27:35.664+05:30  INFO 20148 --- [website] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-21T01:27:35.804+05:30  INFO 20148 --- [website] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-21T01:27:37.075+05:30  WARN 20148 --- [website] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-21T01:27:38.477+05:30  INFO 20148 --- [website] [           main] website.WebsiteApplicationTests          : Started WebsiteApplicationTests in 14.76 seconds (process running for 18.421)
+]]></system-out>
+    <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\MMC\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.19\byte-buddy-agent-1.14.19.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+>>>>>>> 47f4a62622ce9bb7e8b9b8a16142dae9a39a4070
 ]]></system-err>
   </testcase>
 </testsuite>

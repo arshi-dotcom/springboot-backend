@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 C:\Users\MMC\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\website\src\main\java\website\Quote.java
 C:\Users\MMC\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\website\src\main\java\website\QuoteController.java
 C:\Users\MMC\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\website\src\main\java\website\QuoteRepository.java
 C:\Users\MMC\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\website\src\main\java\website\WebsiteApplication.java
+=======
+C:\Users\MMC\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\website\src\main\java\website\Quote.java
+C:\Users\MMC\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\website\src\main\java\website\QuoteController.java
+C:\Users\MMC\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\website\src\main\java\website\QuoteRepository.java
+C:\Users\MMC\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\website\src\main\java\website\WebsiteApplication.java
+>>>>>>> 47f4a62622ce9bb7e8b9b8a16142dae9a39a4070
