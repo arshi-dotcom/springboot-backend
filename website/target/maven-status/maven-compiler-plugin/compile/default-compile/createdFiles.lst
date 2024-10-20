@@ -1,0 +1,4 @@
+website\QuoteController.class
+website\Quote.class
+website\QuoteRepository.class
+website\WebsiteApplication.class
